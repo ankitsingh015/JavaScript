@@ -64,3 +64,31 @@ Typeof use for different datatype and its  output
 // =>JavaScript is a dynamic language and not static, 
 //which means that variables can hold values of different types during runtime.
 //Unlike languages such as Typescript or Java, you don’t need to declare the data type of a variable explicitly.
+
+
+
+// **********************=>Stack and Heap memory in javascript<=*****************************
+
+// stack => primitive
+
+let myname= "ankit"
+let anotherName = myname
+
+anotherName = "rajesh"
+
+console.log(myname);
+console.log(anotherName);
+
+// Heap  => Non-Primitive
+
+let user1 = {
+    email: "emai@gmail.com",
+    upi: "user@mpl"
+}
+
+let user2 = user1
+
+user2.email ="e-mail@gmail.com"
+
+console.log(user1);
+console.log(user2);
