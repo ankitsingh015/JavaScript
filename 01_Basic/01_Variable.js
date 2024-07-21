@@ -1,12 +1,12 @@
 const accountId = 144553        //Value can't be change
-let accountEmail="ankitkumarbkj39@gmail.com"
+let accountEmail="e-mail@gmail.com"
 var accountPassword="ankit"     //Prefer Not To Use
 accountCity= "Jaipur"
 let accountState  
 
 // accountId =2  Not Allowed
 
-accountEmail="22bcs015@smvdu.ac.in"
+accountEmail="email@gmail.com"
 accountPassword="singh"
 accountCity="Bihar"
 

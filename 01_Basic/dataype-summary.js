@@ -12,7 +12,7 @@ const scoreValue=100.3
 
 const isLoggedIn =false
 const outsideTemp= null
-let userEmail
+let userEmail="email"
 
 const id =Symbol('123')
 const anotherId=Symbol('123')
@@ -40,9 +40,24 @@ const bigNumber = 3411541515151994n
     }
 
 
-console.log(typeof myobj)
+console.log(typeof myfunction)
+
+/*
+
+Typeof use for different datatype and its  output
+1.Number    => number
+2.String    => string
+3.Boolean   => boolean
+4.Null      => object
+5.undefined => undefined
+6.symbol    => symbol
+7.bigint    => bigint
+8.array     => object
+9.object    => object
+10.function => function
 
 
+*/
 
 //Dynmaic or Static Type Language ?
 
