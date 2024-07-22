@@ -7,19 +7,19 @@
     // #Primitive Data Type
     // 7 type : String, Number , Boolean, null, undefined, symbol,Bigint
 
-const score = 100
-const scoreValue=100.3
+const score = 100       //number
+const scoreValue=100.3  //number
 
-const isLoggedIn =false
-const outsideTemp= null
-let userEmail="email"
+const isLoggedIn =false     //Boolean
+const outsideTemp= null     //null
+let userEmail="email"       //string
 
-const id =Symbol('123')
-const anotherId=Symbol('123')
+const id =Symbol('123')         //symbol
+const anotherId=Symbol('123')   //symbol
 
-console.log(id);
-console.log(anotherId);
-console.log(id == anotherId);
+console.log(id);                //Symbol(123)
+console.log(anotherId);         //Symbol(123)
+console.log(id == anotherId);   //false
 
 const bigNumber = 3411541515151994n
 
@@ -40,7 +40,7 @@ const bigNumber = 3411541515151994n
     }
 
 
-console.log(typeof myfunction)
+console.log(typeof myfunction)      //function
 
 /*
 
@@ -76,19 +76,24 @@ let anotherName = myname
 
 anotherName = "rajesh"
 
-console.log(myname);
-console.log(anotherName);
+console.log(myname);        //ankit
+console.log(anotherName);   //rajesh
+
+// In This Data Type we pass the copy of variable's value
 
 // Heap  => Non-Primitive
 
 let user1 = {
-    email: "emai@gmail.com",
+    email: "email@gmail.com",
     upi: "user@mpl"
 }
 
 let user2 = user1
 
+console.log(user1);     //{ email: 'email@gmail.com', upi: 'user@mpl' }
+console.log(user2);     //{ email: 'email@gmail.com', upi: 'user@mpl' }
+
 user2.email ="e-mail@gmail.com"
 
-console.log(user1);
-console.log(user2);
+console.log(user1);     //{ email: 'e-mail@gmail.com', upi: 'user@mpl' }
+console.log(user2);     //{ email: 'e-mail@gmail.com', upi: 'user@mpl' }

@@ -21,7 +21,6 @@ console.log(booleanIsLoggedIn)
 // "hitesh" => true
 
 let someNumber =33
-
 let stringNumber = String(someNumber)
 console.log(stringNumber)
 console.log(typeof stringNumber)
@@ -53,16 +52,17 @@ console.log(1+2+"2");   //output =>32
 
 
 
-console.log(+true);
-console.log(+"");
+console.log(+true);     //output => 1
+console.log(+"");       //output => 0
 
 let num1,num2,num3
 
 num1=num2=num3=2+2
 
 let gameCounter=100
-++gameCounter
-gameCounter++;
+++gameCounter               //First increase The ValueThen Use The Variable Value
 console.log(gameCounter);
+gameCounter++;              //First use The Variable Value Then Increase the value
+console.log(gameCounter);   
 
 
